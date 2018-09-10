@@ -1,0 +1,124 @@
+.PostBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 1000px;
+    max-height: 100%;
+    width: 440px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 250px;
+    #whatsonyourmind {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+        background-color: #ffffff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d4d4d4;
+        border-radius: 3px;
+        #addPost {
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #ece5e5;
+            padding: 7px;
+            padding-right: 90px;
+            border-width: 0px;
+            border-bottom-width: 1px;
+            border-style: solid;
+            border-color: #d4d4d4;
+            a {
+                i {
+                    margin-right: 5px;
+                }
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                font-size: 12px;
+                margin-right: 5px;
+                
+            }
+            #centerposts {
+                i{
+                    color: black;
+                    
+                }
+                padding-right: 5px;
+                padding-left: 5px;
+                border-width: 0;
+                border-right-width: 1px;
+                border-left-width: 1px;
+                border-style: solid;
+                border-color: #c5c5c5;
+                color: blue;
+            } 
+            #endpost {
+                i {
+                    color: black;
+                }
+                color: blue;
+            } 
+        }
+        #whatsthemind {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            .IMG {
+                margin-top: 10px;
+                height: 40px;
+                width: 40px;
+                -webkit-clip-path: circle(50% at 50% 50%);
+                clip-path: circle(50% at 50% 50%);
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+        }
+        #line {
+            margin: 5px;
+            height: 1px;
+            width: 94%;
+            background-color: #d4d4d4;
+        }
+        #Tags {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f1f1f1;
+                border-radius: 15px;
+                margin: 3px;
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                i {
+                    margin-right: 3px;
+                }
+                .fa-grin {
+                    color: #cabd00;
+                }
+                .fa-image {
+                    color: #4dafff;
+                }
+            }
+            #ellip {
+                height: 35px;
+                padding-left: 13px;
+                margin-left: 8px;
+            }
+        }
+    }
+}

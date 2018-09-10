@@ -1,0 +1,46 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    min-height: 500px;
+    width: 405px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 3px;
+    #seeing {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+        width: 95%;
+        #left{
+            margin-right: 46%;
+            float: left;
+            color: #c4c4c4;
+            a {
+                color: #1568ac;
+            }
+        }
+        #right{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            float: right;
+            .fa-star {
+                color: #49d5ff;
+                margin-right: 3px;
+            }
+        }
+    }
+    #innerBox {
+
+    }
+}
